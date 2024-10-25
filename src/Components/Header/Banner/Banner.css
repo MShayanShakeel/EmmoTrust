@@ -1,0 +1,104 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 1vh;
+  max-width: 94%;
+  margin: 1rem auto 0px auto;
+  background: #fff;
+}
+
+.grid-item {
+  background-color: #b30000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.grid-container img {
+  width: 100%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+}
+
+.First-Portion,
+.Fouth-Portion {
+  grid-column: span 1;
+  grid-row: span 8;
+  height: 48vh;
+  overflow: hidden;
+}
+
+.Second-Portion,
+.Third-Portion {
+  grid-column: span 1;
+  grid-row: span 5;
+  height: 28vh;
+  overflow: hidden;
+}
+
+.Fifth-Portion {
+  grid-column: span 1;
+  grid-row: span 5;
+  height: 18vh;
+  overflow: hidden;
+}
+
+.Sixth-Portion {
+  grid-column: span 2;
+  grid-row: span 8;
+  height: 38vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Seven-Portion {
+  grid-column: span 2;
+  grid-row: span 5;
+  max-height: 28vh;
+  min-height: 28vh;
+  overflow: hidden;
+}
+
+.Eight-Portion {
+  grid-column: span 1;
+  grid-row: span 7;
+  max-height: 28vh;
+  min-height: 28vh;
+  overflow: hidden;
+}
+
+.Nineth-Portion {
+  grid-column: span 1;
+  grid-row: span 10;
+  max-height: 48vh;
+  min-height: 48vh;
+  overflow: hidden;
+}
+
+.Sixth-Portion h1 {
+  position: absolute;
+  top: 15%;
+}
+.Sixth-Portion button {
+  padding: 1rem 3rem;
+  color: black;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}

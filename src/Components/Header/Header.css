@@ -1,0 +1,22 @@
+.Header-Main {
+  padding: 1.5rem 2rem;
+  background: rgba(69, 158, 151, 1);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: sticky;
+  top: 1px;
+}
+.Header-Second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.Header-Third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Header-Third p {
+  margin-top: 0.5rem;
+}

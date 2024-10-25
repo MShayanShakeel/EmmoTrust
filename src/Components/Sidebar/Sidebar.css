@@ -1,0 +1,137 @@
+.Sidebar-Main {
+  height: 100vh;
+  background-color: #fff;
+  height: 96vh;
+  overflow-y: auto;
+  padding: 2vh 2vh;
+}
+.Header-Icon {
+  display: flex;
+  justify-content: end;
+  gap: 0.6rem;
+}
+.Header-Icon svg {
+  font-size: 1.5rem;
+  color: #459e97;
+}
+.Header-Icon p {
+  font-size: 0.7rem;
+  background-color: #dbebef;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.Header-Logo {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0px;
+}
+.Header-Logo img {
+  width: 70%;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+.List-Main {
+  margin-bottom: 2rem;
+  color: rgba(0, 64, 78, 1);
+}
+.List-Main ul {
+  list-style: none;
+}
+.List-Main li {
+  cursor: pointer;
+  /* padding: 1vh 0px; */
+}
+.List-Content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0.3rem;
+  gap: 0.5rem;
+}
+
+.List-Content p {
+  font-size: 0.7rem;
+}
+.List-Content img {
+  width: 30px;
+}
+.List-content-Second {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.List-Main li.active {
+  background-color: rgba(2, 65, 84, 1);
+  color: white;
+}
+
+.Profile-Main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  padding-top: 3rem;
+  background: rgba(69, 158, 151, 1);
+  color: #fff;
+}
+
+.Profile-Main img {
+  position: absolute;
+  top: -27%;
+}
+.Profile-Main button {
+  padding: 0.5rem 0.5rem;
+  background: rgba(255, 255, 255, 0.14);
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.rating-icnos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+.rating-icnos svg {
+  background: rgba(254, 165, 0, 1);
+  padding: 1px;
+  color: #fff;
+}
+
+.Sidebar-Main::-webkit-scrollbar {
+  width: 10px;
+}
+
+.Sidebar-Main::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.Sidebar-Main::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+
+.Sidebar-Main::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+.Sidebar-Main {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+/* SCREEN SIZES  */
+@media screen and (min-width: 1600px) and (max-width: 3000px) {
+  .List-Main li {
+    cursor: pointer;
+    padding: 1vh 0;
+  }
+}
